@@ -1,8 +1,108 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
 /*
  * What follows is the result of much research on cross-browser styling.
  * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
  * Kroc Camen, and the H5BP dev community and team.
  */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
 
 /* ==========================================================================
    Base styles: opinionated defaults
@@ -88,21 +188,104 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+body {
+   font-family: 'Archivo Narrow', sans-serif;
+}
 
+header{
+   background-image: url('../img/surf3.jpg'); 
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover; 
+} 
 
+header h1{
+   font-size: 60px;
+   color:navy;   
+}
 
+header h1{
+    text-align:right;
+    margin-right: 240px;
+    padding: 40vh 0;
+    position: relative;
+    top: 32px;
+} 
 
+h1{
 
+}
 
+h2{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align:center;
+    color:navy;
+    font-size: 100px;
 
+}
 
+h3{
 
+}
 
+nav{
+   background:ghostwhite;
+   position: fixed;
+   top: 0;
+   left: 0;
+   right: 0;
+   width: 100%;
+}
 
+nav div.logo{
+    float: left;
+    display: inline-block;
+    width:25%;
+}
 
+nav {
+    background: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 9999;
+}
 
+nav ul{
+    display: inline-block;
+    width:75%;
 
+    list-style: none;
+    text-align: center;
+}
 
+nav li{ 
+    display: inline-block;
+    padding: 15px 25px
+}
+nav li a{
+    color: navy;
+}
+
+aside{
+    background:green;
+}
+
+section{
+    background:red;
+}
+
+article{
+    background:darkgrey;
+}
+
+article img{
+    width: 100%;
+    height: auto;
+}
 
 /* ==========================================================================
    Helper classes

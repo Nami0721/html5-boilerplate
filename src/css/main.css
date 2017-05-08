@@ -189,7 +189,7 @@ textarea {
    ========================================================================== */
 
 body {
-   font-family: 'Archivo Narrow', sans-serif;
+   font-family: 'Orbitron', sans-serif;
 }
 
 header{
@@ -206,7 +206,7 @@ header h1{
 
 header h1{
     text-align:right;
-    margin-right: 240px;
+    margin-right: 160px;
     padding: 40vh 0;
     position: relative;
     top: 32px;
@@ -285,6 +285,25 @@ article{
 article img{
     width: 100%;
     height: auto;
+}
+
+
+section.product div.left{
+    display: inline-block;
+    width: 30%;
+    float: left;
+    height: 300px;
+}
+
+section.product div.right{
+    display: inline-block;
+    width: 70%;
+    float: right;
+    height: 300px;
+}
+
+img.responsive{
+    max-width: 100%;
 }
 
 /* ==========================================================================

@@ -330,6 +330,17 @@ img.responsive{
     height: 100%;
 }
 
+.grid-4 {
+  text-align: center;
+}
+.grid-4 div.grid-item{
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  width: 24%;
+}
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */

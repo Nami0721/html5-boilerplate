@@ -282,6 +282,7 @@ article img{
 }
 
 section.product div.left{
+    position: relative;
     display: inline-block;
     width: 30%;
     float: left;
@@ -289,9 +290,16 @@ section.product div.left{
 }
 
 section.product div.left img{
+    position: absolute;
+    top: 0;
+    left: 0;
     display: block;
     max-width: 100%;
     height:100%;
+}
+
+section.product div.left img:not(.active){
+  display:none;
 }
 
 section.product div.right{

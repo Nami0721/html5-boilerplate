@@ -317,6 +317,22 @@ img.responsive{
     text-align: center;
 }
 
+.grid-4 {
+  text-align: center;
+}
+.grid-4 div.grid-item{
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  height: 150px;
+  width: 24%;
+  color:navy;
+}
+.grid-4 div.grid-item img {
+    width: 100%;
+    height: 100%;
+}
+
 .grid div.grid-item {
     width: 25%;
     margin: 1%;
@@ -328,16 +344,6 @@ img.responsive{
 .grid div.grid-item img {
     width: 100%;
     height: 100%;
-}
-
-.grid-4 {
-  text-align: center;
-}
-.grid-4 div.grid-item{
-  margin: 0;
-  padding: 0;
-  display: inline-block;
-  width: 24%;
 }
 
 

@@ -326,15 +326,15 @@ img.responsive{
 }
 
 .grid-4 {
-  text-align: center;
+    text-align: center;
 }
 .grid-4 div.grid-item{
-  margin: 0;
-  padding: 0;
-  display: inline-block;
-  height: 150px;
-  width: 24%;
-  color:navy;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    height: 150px;
+    width: 24%;
+    color:navy;
 }
 .grid-4 div.grid-item img {
     width: 100%;

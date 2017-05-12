@@ -237,7 +237,8 @@ nav{
 nav div.logo{
     float: left;
     display: inline-block;
-    width:25%;
+    width: 25%;
+    height: 25%; 
 }
 
 nav {
@@ -250,7 +251,7 @@ nav {
     z-index: 9999;
 }
 
-nav ul{
+nav ul, footer ul{
     display: inline-block;
     width:75%;
 
@@ -258,11 +259,11 @@ nav ul{
     text-align: center;
 }
 
-nav li{ 
+nav li, footer li{ 
     display: inline-block;
     padding: 15px 25px
 }
-nav li a{
+nav li a, footer li a{
     color: navy;
 }
 
@@ -315,7 +316,11 @@ section.product div.right p{
     padding: 100px 100px;
 }
 
-
+footer{
+    color: navy;
+    font-size: 15px;
+    text-align:center;
+}
 
 img.responsive{
     max-width: 100%;

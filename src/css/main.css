@@ -213,11 +213,11 @@ header h1{
 } 
 
 h2{
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin-top: 40px;
+    margin-bottom: 40px;
     text-align:center;
     color:navy;
-    font-size: 65px;
+    font-size: 60px;
 }
 
 nav div.logo{
@@ -251,10 +251,6 @@ nav li, footer li{
 }
 nav li a, footer li a{
     color: navy;
-}
-
-section{
-    min-height: 500px;
 }
 
 article{
@@ -321,7 +317,7 @@ img.responsive{
     margin: 0;
     padding: 0;
     display: inline-block;
-    height: 150px;
+    height: 180px;
     width: 24%;
     color:navy;
 }

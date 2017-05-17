@@ -188,6 +188,11 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+a {
+    text-decoration:none
+    ;
+}
+
 body {
     font-family: 'Orbitron', sans-serif;
 }
@@ -240,7 +245,7 @@ nav {
 nav ul, footer ul{
     display: inline-block;
     width:75%;
-
+ 
     list-style: none;
     text-align: center;
 }
@@ -296,14 +301,25 @@ section.product div.right{
 
 section.product div.right p{
     color: navy;
-    font-size: 20px;
+    font-size: 30px;
     padding: 100px 100px;
+    font-family: 'Roboto', sans-serif;
 }
 
 section.BuyNow {
     color: navy;
     font-size: 30px;
     text-align: center;
+}
+
+section.reason .grid-item{
+    cursor: pointer;
+}
+
+.closebutton{
+    text-align: right;
+    color: red;
+    cursor: pointer;
 }
 
 footer{

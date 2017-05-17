@@ -35,3 +35,29 @@ $(window).scroll(function() {
 	}
 
 });
+
+
+$('section.reason .grid-item').click(function() {
+	var clickedClass = $(this).attr('class');
+	var number = clickedClass.replace( /^\D+/g, '');
+	var reasonClass = 'section.reason-'+number;
+	$(reasonClass).show();
+	$(reasonClass).css({
+		'background': 'rgba(255, 255, 255, 0.9)',
+		'position': 'fixed',
+		'top': 0,
+		'right': 0,
+		'bottom': 0,
+		'left': 0,
+		'margin': 0,
+		'height': '100vh',
+		'padding-top': '8%'
+	});
+	$(reasonClass).addClass('active');
+});
+
+
+$('.closebutton').click(function() {
+	$('section.active').hide();
+	$('section.active').removeClass('active');
+});

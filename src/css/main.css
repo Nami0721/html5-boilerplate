@@ -316,10 +316,37 @@ section.reason .grid-item{
     cursor: pointer;
 }
 
+section.reason-2{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
 .closebutton{
     text-align: right;
     color: red;
     cursor: pointer;
+}
+
+.grid div.grid-item.reason-2-1 img,
+.grid div.grid-item.reason-2-2 img,
+.grid div.grid-item.reason-2-3 img{
+    height: 250px;
+    width: 300px;
+}
+
+.grid-item.reason-2-4,
+.grid-item.reason-2-5,
+.grid-item.reason-2-6{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 25px;
+}
+
+.grid-item.reason-2-7,
+.grid-item.reason-2-8,
+.grid-item.reason-2-9{
+    font-size: 15px;
+    text-align: left;
+    vertical-align: top; 
 }
 
 footer{
